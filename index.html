@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>GrindURUS: Automated Market Taker</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250326195754">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/logo.svg" alt="GrindURUS logo">
+					<div>GrindURUS</div>
+				</div>
+				<nav class="header__navigation">
+					<ul class="header__menu menu">
+						<li class="menu__item"><a href="#" class="menu__link">Dashboard</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">GrETH</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">GrinderAI</a></li>
+					</ul>
+				</nav>
+				<div class="header__buttons">
+					<button class="header__button button network-button">
+						<div class="button__image">
+							<img src="img/arb.webp" alt="Arbitrum One Logo">
+						</div>
+						Arbitrum One
+					</button>
+					<button class="header__button button connect-button">
+						0x9c...3e75
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">Mint Pool NFT</h1>
+						<div class="hero__statistics stat">
+							<div class="stat__item">
+								<div class="stat__key">Total Pools Minted:</div>
+								<div class="stat__value">1234</div>
+							</div>
+							<div class="stat__item">
+								<div class="stat__key">GrETH Minted:</div>
+								<div class="stat__value">135</div>
+							</div>
+							<div class="stat__item">
+								<div class="stat__key">TVL:</div>
+								<div class="stat__value">1,831,190$</div>
+							</div>
+						</div>
+						<div class="hero__text">
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto sapiente praesentium rerum vitae odit non quo minus, mollitia ea consectetur. Est ullam commodi totam eos illum, consequatur pariatur debitis ad?</p>
+						</div>
+					</div>
+					<form class="hero__form mint-form">
+						<div class="mint-form__group">
+							<div class="mint-form__label">Strategy</div>
+							<div class="mint-form__select select strategy">
+								<div class="select__text">UniswapV3 with GrindURUS</div>
+							</div>
+						</div>
+						<div class="mint-form__group">
+							<div class="mint-form__label">Quote Token</div>
+							<div class="mint-form__select select">
+								<div class="select__image">
+									<img src="img/animation/usdt.svg" alt="USDT Logo">
+								</div>
+								<div class="select__text">USDT</div>
+							</div>
+						</div>
+						<div class="mint-form__group">
+							<div class="mint-form__label">Base Token</div>
+							<div class="mint-form__select select">
+								<div class="select__image weth">
+									<img src="img/animation/weth.svg" alt="WETH Logo">
+								</div>
+								<div class="select__text">WETH</div>
+							</div>
+						</div>
+						<div class="mint-form__group">
+							<div class="mint-form__label">Quote Token Amount</div>
+							<input placeholder="Enter amount to deposit" type="number" class="mint-form__input input">
+						</div>
+						<button class="mint-form__button deposit-button">Deposit</button>
+					</form>
+				</div>
+			</section>
+			<section class="table-section">
+				<div class="table-section__container">
+					<div class="table-section__header">
+						<h2 class="table-section__title">Explore All Pools</h2>
+						<div class="table-section__search search">
+							<input placeholder="Search with pool id or owner address" type="text" class="search__input">
+							<button class="search__button">Search</button>
+						</div>
+					</div>
+					<table class="table">
+						<thead class="table__head">
+							<tr class="table__row">
+								<th class="table__header">Network</th>
+								<th class="table__header">Pool Id</th>
+								<th class="table__header">Yield profit + Trade profit</th>
+								<th class="table__header">Start</th>
+								<th class="table__header">APR</th>
+								<th class="table__header">Buy royalty</th>
+								<th class="table__header">Grind Pool</th>
+								<th class="table__header">View Pool</th>
+							</tr>
+						</thead>
+						<tbody class="table__body">
+							<tr class="table__row">
+								<td class="table__cell"><img src="img/arb.webp" alt="Network 1" class="table__network-icon"></td>
+								<td class="table__cell">0</td>
+								<td class="table__cell">0.000977 USDTO + 0.000000195934265940 WETH<br>+ 0.000000 USDTO + 0.000000000000000000 WETH</td>
+								<td class="table__cell">Mon, 15th March, 2025</td>
+								<td class="table__cell">N/A</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Buy 0.0 ETH</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Grind</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">View</button></div>
+								</td>
+							</tr>
+							<tr class="table__row">
+								<td class="table__cell"><img src="img/arb.webp" alt="Network 2" class="table__network-icon"></td>
+								<td class="table__cell">1</td>
+								<td class="table__cell">0.000505 USDTO + 0.000000320896643118 WETH<br>+ 0.000000 USDTO + 0.000000000000000000 WETH</td>
+								<td class="table__cell">Mon, 15th March, 2025</td>
+								<td class="table__cell">N/A</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Buy 0.0 ETH</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Grind</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">View</button></div>
+								</td>
+							</tr>
+							<tr class="table__row">
+								<td class="table__cell"><img src="img/arb.webp" alt="Network 3" class="table__network-icon"></td>
+								<td class="table__cell">2</td>
+								<td class="table__cell">0.000257 USDTO + 0.000000375133649739 WETH<br>+ 0.000000 USDTO + 0.000000000000000000 WETH</td>
+								<td class="table__cell">Mon, 15th March, 2025</td>
+								<td class="table__cell">N/A</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Buy 0.0 ETH</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Grind</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">View</button></div>
+								</td>
+							</tr>
+							<tr class="table__row">
+								<td class="table__cell"><img src="img/arb.webp" alt="Network 4" class="table__network-icon"></td>
+								<td class="table__cell">3</td>
+								<td class="table__cell">0.000017 USDTO + 0.000000450477299312 WETH<br>+ 0.000000 USDTO + 0.000000000000000000 WETH</td>
+								<td class="table__cell">Mon, 15th March, 2025</td>
+								<td class="table__cell">N/A</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Buy 0.0 ETH</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Grind</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">View</button></div>
+								</td>
+							</tr>
+							<tr class="table__row">
+								<td class="table__cell"><img src="img/arb.webp" alt="Network 5" class="table__network-icon"></td>
+								<td class="table__cell">4</td>
+								<td class="table__cell">0.002163 USDTO + 0.000001774851556959 WETH<br>+ 0.137982 USDTO + 0.000187654979405437 WETH</td>
+								<td class="table__cell">Mon, 15th March, 2025</td>
+								<td class="table__cell">N/A</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Buy 0.0 ETH</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">Grind</button></div>
+								</td>
+								<td class="table__cell">
+									<div class="button-container"><button class="button">View</button></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__build">
+					<div class="footer__build-on">Frontend & backend build on the:</div>
+					<div class="footer__icp">
+						<img src="img/icp.svg" alt="Internet Computer Protocol Logo">
+					</div>
+				</div>
+				<div class="footer__copyright">100% onchain automated market taker (AMT) protocol. &copy; GrindURUS 2025.</div>
+				<ul class="footer__socials socials-list">
+					<li class="socials-list__item">
+						<a href="#" class="socials-list__link">
+							<img src="img/socials/telegram.svg" alt="Telegram">
+						</a>
+					</li>
+					<li class="socials-list__item">
+						<a href="#" class="socials-list__link">
+							<img src="img/socials/discord.svg" alt="Discord">
+						</a>
+					</li>
+					<li class="socials-list__item">
+						<a href="#" class="socials-list__link">
+							<img src="img/socials/x.svg" alt="X (Twitter)">
+						</a>
+					</li>
+					<li class="socials-list__item">
+						<a href="#" class="socials-list__link">
+							<img src="img/socials/medium.svg" alt="Medium">
+						</a>
+					</li>
+					<li class="socials-list__item">
+						<a href="#" class="socials-list__link">
+							<img src="img/socials/github.svg" alt="GitHub">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250326195754"></script>
+</body>
+
+</html>
